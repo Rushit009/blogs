@@ -41,6 +41,9 @@
     },
     "blogs": {
       "hasMany": "Blog"
+    },
+    "users": {
+      "hasMany": "User"
     }
   },
   "Comment": {
@@ -65,9 +68,8 @@
     "post": {
       "belongsTo": "Post"
     }
-  }
-
-  ,"Blog": {
+  },
+  "Blog": {
     "_": {
       "items": 25
     },
@@ -77,10 +79,55 @@
         "maxLength": 20
       }
     },
+    "createdBy": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
     "body": {
       "loremParagraphs": {
         "minLength": 10,
         "maxLength": 100
+      }
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2023-01-31T23:59:59Z"
+      }
+    },
+    "post": {
+      "belongsTo": "Post"
+    }
+  },
+
+  "User": {
+    "_": {
+      "items": 25
+    },
+    "name": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "designation": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "joiningAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2023-01-31T23:59:59Z"
       }
     },
     "createdAt": {

@@ -39,6 +39,9 @@
     "comments": {
       "hasMany": "Comment"
     },
+    "dashboard": {
+      "hasMany": "Dashboard"
+    },
     "blogs": {
       "hasMany": "Blog"
     },
@@ -54,6 +57,50 @@
       "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
     "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    "post": {
+      "belongsTo": "Post"
+    }
+  },
+  "Dashboard": {
+    "_": {
+      "items": 5
+    },
+    "orders": {
+      "int": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "expenses": {
+      "int": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "revenues": {
+      "int": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "users": {
+      "int": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "recentblogs": {
       "loremParagraphs": {
         "minLength": 10,
         "maxLength": 100

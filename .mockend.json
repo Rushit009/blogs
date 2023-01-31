@@ -31,9 +31,9 @@
       }
     },
     "createdAt": {
-      "string": {
+      "string": 
         "22 July 2022"
-      }
+      
     },
     "comments": {
       "hasMany": "Comment"
@@ -62,9 +62,10 @@
       }
     },
     "createdAt": {
-     "string": {
+     "string": 
+       
         "22 July 2022"
-      }
+      
     },
     "post": {
       "belongsTo": "Post"
@@ -105,9 +106,9 @@
       }
     },
     "createdAt": {
-      "string": {
+      "string": 
         "22 July 2022"
-      }
+      
     },
     "post": {
       "belongsTo": "Post"
@@ -139,9 +140,9 @@
       }
     },
     "createdAt": {
-      "string": {
+      "string": 
         "22 July 2022"
-      }
+      
     },
     "post": {
       "belongsTo": "Post"
@@ -180,9 +181,9 @@
       }
     },
     "createdAt": {
-     "string": {
+     "string": 
         "22 July 2022"
-      }
+      
     },
     "post": {
       "belongsTo": "Post"

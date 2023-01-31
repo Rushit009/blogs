@@ -31,9 +31,10 @@
       }
     },
     "createdAt": {
-      "string": 
-        "22 July 2022"
-      
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     },
     "comments": {
       "hasMany": "Comment"
@@ -62,10 +63,10 @@
       }
     },
     "createdAt": {
-     "string": 
-       
-        "22 July 2022"
-      
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     },
     "post": {
       "belongsTo": "Post"
@@ -106,9 +107,10 @@
       }
     },
     "createdAt": {
-      "string": 
-        "22 July 2022"
-      
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     },
     "post": {
       "belongsTo": "Post"
@@ -140,9 +142,7 @@
       }
     },
     "createdAt": {
-      "string": 
-        "22 July 2022"
-      
+      "string": [ "12 July 2022" ]
     },
     "post": {
       "belongsTo": "Post"
@@ -181,9 +181,10 @@
       }
     },
     "createdAt": {
-     "string": 
-        "22 July 2022"
-      
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2023-01-31T23:59:59Z"
+      }
     },
     "post": {
       "belongsTo": "Post"

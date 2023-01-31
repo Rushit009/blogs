@@ -31,10 +31,7 @@
       }
     },
     "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
+      "string": [ "12 July 2022" ]
     },
     "comments": {
       "hasMany": "Comment"
@@ -63,10 +60,7 @@
       }
     },
     "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
+      "string": [ "12 July 2022" ]
     },
     "post": {
       "belongsTo": "Post"
@@ -107,10 +101,7 @@
       }
     },
     "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
+      "string": [ "12 July 2022" ]
     },
     "post": {
       "belongsTo": "Post"
@@ -181,10 +172,7 @@
       }
     },
     "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2023-01-31T23:59:59Z"
-      }
+      "string": [ "12 July 2022" ]
     },
     "post": {
       "belongsTo": "Post"

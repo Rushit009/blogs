@@ -68,33 +68,24 @@
   },
   "Dashboard": {
     "_": {
-      "items": 5
+      "items": 4
     },
-    "orders": {
-      "int": {
-        "min": 0,
-        "max": 1000
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
       }
     },
-    "expenses": {
-      "int": {
-        "min": 0,
-        "max": 1000
+    "createdBy": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
       }
     },
-    "revenues": {
-      "int": {
-        "min": 0,
-        "max": 1000
-      }
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-    "users": {
-      "int": {
-        "min": 0,
-        "max": 1000
-      }
-    },
-    "recentblogs": {
+    "body": {
       "loremParagraphs": {
         "minLength": 10,
         "maxLength": 100
@@ -102,7 +93,7 @@
     },
     "createdAt": {
       "string": [ "12 July 2022" ]
-    },
+    },   
     "post": {
       "belongsTo": "Post"
     }
